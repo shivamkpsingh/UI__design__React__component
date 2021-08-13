@@ -1,0 +1,46 @@
+.viewdetailcard {
+  width: 400px;
+  height: 80px;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+.viewdetailcard__meter{
+    width: 80px;
+    background: #307AFF;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px 0px 0px 16px;
+    color: #ffffff;
+}
+.viewdetailcard__bedroom{
+    margin-left: 30px;
+}
+
+.viewdetails__bedroomDetail{
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+.viewdetailcard__bedroom>h3{
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+.viewdetails__bedroomDetail > img {
+    height: 10px;
+}
+.viewdetails__bedroomDetail >p{
+    color:  #AFAFAF;
+    margin-left: 7px;
+    font-size: 15px;
+}
