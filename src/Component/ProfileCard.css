@@ -1,0 +1,22 @@
+.profileCard{
+    width: 180px;
+    height: 220px;
+    background: #ffffff;
+    margin-left: 50px;
+    border-radius: 12px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile__pic{
+   height: 100px;
+}
+.profileCard >p{
+    margin-top: 10px;
+}
+.profile__switch{
+    height: 30px;
+    margin-top: 10px;
+}

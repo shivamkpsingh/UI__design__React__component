@@ -1,0 +1,43 @@
+.statusCard {
+  width: 400px;
+  margin: 50px 0px 0px 50px;
+  height: 80px;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.statusCard__left {
+  display: flex;
+  align-items: center;
+}
+.statusCard__left > img {
+  height: 30px;
+}
+.statusCard__detail> h3{
+    font-size: 16px;
+}
+.statusCard__detail> p{
+    color:#898A8D ;
+    margin-top: 3px;
+}
+.statusCard__detail {
+  margin-left: 15px;
+}
+.statusCard__right {
+  display: flex;
+  align-items: center;
+}
+.statusCard__right > img {
+  height: 26px;
+}
+.statusCard__right > p {
+  margin-left: 10px;
+  color:#898A8D ;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+}

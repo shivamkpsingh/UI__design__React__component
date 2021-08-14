@@ -1,0 +1,28 @@
+.homeBar{
+    width: 450px;
+    height: 70px;
+    background: #ffffff;
+    box-shadow:  0px 10px 50px rgba(0, 0, 0, 0.09);
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.homeBar__left{
+    display: flex;
+    align-items: center;
+}
+.homeBar__left>img{
+    height: 40px;
+}
+.homeBar__left>p{
+    margin-left: 10px;
+    font-family: SF Pro Text;
+    font-weight: normal;
+    color: #000000;
+}
+.homeBar >img{
+    height: 20px;
+}

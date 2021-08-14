@@ -1,0 +1,60 @@
+.login {
+  /* background: cornflowerblue; */
+  height: 100vh;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("https://cdn.decoist.com/wp-content/uploads/2018/05/Dark-wall-behind-the-stairway-lets-it-shine-through.jpg") no-repeat center center/cover;
+  width: 100%;
+  /* opacity: 0.2; */
+}
+.login__Icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login__Icon > img{
+    height: 100px;
+}
+.login__Icon>p{
+    color: #ffffff;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.login__input {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.login__input > input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid lightgrey;
+  margin-top: 30px;
+  width: 100%;
+  outline: none;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 0px 0px 5px 5px;
+}
+.login__button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.button1 {
+  margin-bottom: 15px;
+}
+.login__footer{
+    display: flex;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.login__footerPara{
+    text-decoration: underline;
+    margin-left: 10px;
+}

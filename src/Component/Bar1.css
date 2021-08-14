@@ -1,0 +1,22 @@
+.bar1{
+    width: 400px;
+    height: 60px;
+    background: #000000;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 10px;
+}
+.bar1>img{
+    height: 24px;
+}
+.bar1>h2{
+    font-weight: 600;
+}
+.bar1 > p{
+    font-size: 24px;
+    font-weight: 200;
+}
