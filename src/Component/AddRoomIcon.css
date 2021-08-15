@@ -1,0 +1,15 @@
+.addroomIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  /* background: chocolate; */
+  margin: 10px;
+}
+.addroomIcon > img{
+    height: 120px;
+}
+.addroomIcon>p{
+    margin-top: 10px;
+    color: #AFAFAF;
+}

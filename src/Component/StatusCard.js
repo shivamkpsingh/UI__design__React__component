@@ -1,13 +1,13 @@
 import React from 'react'
 import '../Component/StatusCard.css'
-const StatusCard = () => {
+const StatusCard = ({imgUrl,deviceName,data}) => {
     return (
         <div className="statusCard">
             <div className="statusCard__left">
-                <img src={process.env.PUBLIC_URL + "/Image/light.png"} alt="" />
+                <img src={imgUrl} alt="" />
                 <div className="statusCard__detail">
-                    <h3>Light 2</h3>
-                    <p>80%</p>
+                    <h3>{deviceName}</h3>
+                    <p>{data}</p>
                 </div>
             </div>
            <div className="statusCard__right">

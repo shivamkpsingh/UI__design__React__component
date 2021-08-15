@@ -1,0 +1,9 @@
+.deviceEdit {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.deviceEdit__colomn {
+  flex: 1;
+}

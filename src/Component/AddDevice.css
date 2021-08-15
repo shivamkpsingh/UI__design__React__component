@@ -18,6 +18,8 @@
     font-size: 20px;
     padding: 10px;
     color: #ff9900;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
 }
 .add__button{
     width: 340px;

@@ -1,0 +1,15 @@
+.bar4{
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 10px;
+}
+.bar4>img{
+    height: 24px;
+}
+.bar4 > p{
+    font-size: 24px;
+    font-weight: 200;
+}

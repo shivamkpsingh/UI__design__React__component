@@ -5,6 +5,17 @@
     align-items: center;
     margin-top: 60px;
 }
+.channelDevice__button>a>button{
+    width: 300px;
+    border: none;
+    font-size: 20px;
+    background: #ff9900;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 25px;
+    cursor: pointer;
+}
 .channelDevice__button>button{
     width: 300px;
     border: none;
@@ -14,4 +25,5 @@
     padding: 10px;
     border-radius: 8px;
     margin-top: 25px;
+    cursor: pointer;
 }

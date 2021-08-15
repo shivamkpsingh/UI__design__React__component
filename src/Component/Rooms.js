@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Component/Rooms.css";
 import HomeCard from "./HomeCard";
 import homeCardData from "./homeCardData";
@@ -20,7 +21,9 @@ const Rooms = () => {
         </div>
         <div className="rooms__headerDown">
           <h1>ROOMS</h1>
-          <img src={process.env.PUBLIC_URL + "/Image/add.png"} alt="" />
+          <Link to="/addroom">
+            <img src={process.env.PUBLIC_URL + "/Image/add.png"} alt="" />
+          </Link>
         </div>
       </div>
       <div className="rooms__middle">
