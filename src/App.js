@@ -1,4 +1,5 @@
 import "./App.css";
+// import Login22 from "./Component/Login2/Login22";
 import Login from "./Component/Login";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Rooms from "./Component/Rooms";
@@ -8,13 +9,14 @@ import ChannelDevice from "./Component/ChannelDevice";
 import AddDevice from "./Component/AddDevice";
 import DeviceEdit from "./Component/DeviceEdit";
 import Bar4 from "./Component/Bar4";
-
 function App() {
+  const user = localStorage.getItem("user-info");
+  console.log("line 15", user);
   return (
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/room">
+          <Route path="/rooms">
             <Rooms />
           </Route>
           <Route path="/addroom">
@@ -30,8 +32,8 @@ function App() {
             <AddDevice />
           </Route>
           <Route path="/edit">
-          <Bar4/>
-            <DeviceEdit/>
+            <Bar4 />
+            <DeviceEdit />
           </Route>
           <Route path="/">
             <Login />

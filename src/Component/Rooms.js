@@ -28,7 +28,7 @@ const Rooms = () => {
       </div>
       <div className="rooms__middle">
         {homeCardData.map((props) => {
-          return <HomeCard url={props.img} title={props.title} />;
+          return <HomeCard key={props.id} url={props.img} title={props.title} />;
         })}
       </div>
       <div className="rooms__footer">

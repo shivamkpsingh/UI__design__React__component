@@ -45,8 +45,23 @@
   flex-direction: column;
   margin-top: 25px;
 }
-.button1 {
-  margin-bottom: 15px;
+
+.My__button{
+  width: 250px;
+  height: 45px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 8px;
+  background-color: #ff9900;
+  font-family: SF Pro Text;
+  border: none;
+  cursor: pointer;
+}
+.my__button__2{
+  background: #2A2A37;
+  margin-top: 10px;
 }
 .login__footer{
     display: flex;
@@ -58,3 +73,4 @@
     text-decoration: underline;
     margin-left: 10px;
 }
+
